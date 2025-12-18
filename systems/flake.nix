@@ -1,0 +1,5 @@
+{
+  description = "Systems";
+
+  outputs = _: { };
+}
