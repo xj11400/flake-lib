@@ -3,13 +3,12 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-unstable";
-    systems.url = "github:xj11400/flake-lib?dir=systems";
   };
 
   outputs = inputs: {
     lib = import ./lib {
-      pkgs = inputs.nixpkgs;
-      systems = import inputs.systems;
+      inherit (inputs) nixpkgs;
+      systems = import ./systems;
     };
   };
 }
