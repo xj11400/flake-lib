@@ -24,14 +24,20 @@
     },
     "systems": {
       "locked": {
-        "path": "./systems",
-        "type": "path"
+        "dir": "systems",
+        "lastModified": 1766618680,
+        "narHash": "sha256-SOzrilBKiVICcjZtMTHRPcuC4HaUctH2SN6jvtZAyEU=",
+        "owner": "xj11400",
+        "repo": "flake-lib",
+        "rev": "a9c1a3b22b32f1c7246849d085ebd2c2752f1452",
+        "type": "github"
       },
       "original": {
-        "path": "./systems",
-        "type": "path"
-      },
-      "parent": []
+        "dir": "systems",
+        "owner": "xj11400",
+        "repo": "flake-lib",
+        "type": "github"
+      }
     }
   },
   "root": "root",
