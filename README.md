@@ -35,6 +35,8 @@ Include this library in your `flake.nix` or import it directly:
 }
 ```
 
+- [forSystem Usage](./usage/flake.nix)
+
 ## Documentation
 
 Comprehensive documentation for each module is available in the [doc/](doc/) directory.
